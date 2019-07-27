@@ -1,6 +1,7 @@
-# Introduction
-This code checks validity of Iranian NationalCode.
+# Validation-of-National-Code-and-IBAN
+Check validation of Iranian National Code and IBAN in javascript.
 
+# National Code Validation
 ```
 function isValid(nationalCode) {
     if (!/^\d{10}$/.test(nationalCode))
@@ -17,7 +18,7 @@ function isValid(nationalCode) {
 }
 ```
 
-This code checks validity of Iranian IBAN.
+# IBAN Validation
 ```
 function modulo(aNumStr, aDiv) {
     var tmp = "";
